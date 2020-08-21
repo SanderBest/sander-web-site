@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>My portfolio</title>
+  </head>
+  <body>
+    <header class="main-page">
+      <div class="container">
+        <div class="main-page__header main-page-header">
+          <a href="#" class="main-page-header__logo-link"
+            ><img
+              src="img/header/logo.svg"
+              alt="logo"
+              class="main-page-header__logo-img"
+          /></a>
+          <div class="main-page-header__social-links social-links">
+            <a href="#" class="social-links__link">
+              <svg
+                class="social-links__link-img"
+                width="18"
+                height="18"
+                fill="white"
+              >
+                <use xlink:href="img/header/social.svg#github"></use>
+              </svg>
+            </a>
+            <a href="#" class="social-links__link">
+              <svg
+                class="social-links__link-img"
+                width="18"
+                height="18"
+                fill="white"
+              >
+                <use xlink:href="img/header/social.svg#twitter"></use>
+              </svg>
+            </a>
+            <a href="#" class="social-links__link">
+              <svg
+                class="social-links__link-img"
+                width="18"
+                height="18"
+                fill="white"
+              >
+                <use xlink:href="img/header/social.svg#instagram"></use>
+              </svg>
+            </a>
+            <a href="#" class="social-links__link">
+              <svg
+                class="social-links__link-img"
+                width="18"
+                height="18"
+                fill="white"
+              >
+                <use xlink:href="img/header/social.svg#facebook"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="main-page__content main-page-content">
+          <div class="main-page-content__text main-page-content-text">
+            <span class="main-page-content-text__subtitle" data-aos="fade-down"
+              >Фрилансер</span
+            >
+            <h1 class="main-page-content-text__title" data-aos="fade-right">
+              Александр Иванов
+            </h1>
+            <p
+              class="main-page-content-text__description"
+              data-aos="zoom-in-down"
+            >
+              Разрабатываю сайты для малого и среднего бизнеса. У меня можно
+              заказать верстку небольшого сайта
+            </p>
+            <button class="main-page-content-text__btn btn">
+              Бесплатная консультация
+            </button>
+          </div>
+          <div class="main-page-content__avatar"></div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="features">
+        <div class="container">
+          <h2 class="section-title features__title">Со мной удобно работать</h2>
+          <div class="features__block">
+            <div
+              class="features__item features-item"
+              data-aos="fade-left"
+              data-aos-duration="500"
+            >
+              <img
+                src="img/features/offer-img.svg"
+                alt="offer"
+                class="features-item__img"
+              />
+              <h3 class="features-item__title">По договору</h3>
+              <p class="features-item__text">
+                Предоставлю все документы для бухгалтерии: договоры, счета и
+                акты. Работаю как ИП без НДС.
+              </p>
+            </div>
+            <!-- /features-item -->
+            <div
+              class="features__item features-item"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <img
+                src="img/features/deadline-img.svg"
+                alt="deadline"
+                class="features-item__img"
+              />
+              <h3 class="features-item__title">Точно в срок</h3>
+              <p class="features-item__text">
+                В договоре прописана моя ответственность за срок проекта. Если
+                просрочу — плачу неустойку.
+              </p>
+            </div>
+            <!-- /features-item -->
+            <div
+              class="features__item features-item"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
+              <img
+                src="img/features/agreement-img.svg"
+                alt="agreement"
+                class="features-item__img"
+              />
+              <h3 class="features-item__title">Ценник под вас</h3>
+              <p class="features-item__text">
+                Если у вас нетиповой проект, сделаю рассчет цены за работу и
+                объясню, как складывается цена.
+              </p>
+            </div>
+            <!-- /features-item -->
+            <div
+              class="features__item features-item"
+              data-aos="fade-left"
+              data-aos-duration="2000"
+            >
+              <img
+                src="img/features/steps-img.svg"
+                alt="steps"
+                class="features-item__img"
+              />
+              <h3 class="features-item__title">Премежуточные итоги</h3>
+              <p class="features-item__text">
+                Показываю работу поэтапно, а не  в последий момент перед
+                 крайним сроком.
+              </p>
+            </div>
+            <!-- /features-item -->
+            <div
+              class="features__item features-item"
+              data-aos="fade-left"
+              data-aos-duration="2500"
+            >
+              <img
+                src="img/features/storage-img.svg"
+                alt="storage"
+                class="features-item__img"
+              />
+              <h3 class="features-item__title">Хостинг и домен</h3>
+              <p class="features-item__text">
+                Если мы договорились о цене проекта, в неё входит всё: домен и
+                хостинг на год + SSL сертификат.
+              </p>
+            </div>
+            <!-- /features-item -->
+            <div
+              class="features__item features-item"
+              data-aos="fade-left"
+              data-aos-duration="3000"
+            >
+              <img
+                src="img/features/conversation-img.svg"
+                alt="conversation"
+                class="features-item__img"
+              />
+              <h3 class="features-item__title">Не брошу после сдачи</h3>
+              <p class="features-item__text">
+                Научу вас или вашего сотрудника пользоваться сайтом, запишу
+                видео-инструкции.
+              </p>
+            </div>
+            <!-- /features-item -->
+          </div>
+        </div>
+      </section>
+
+      <section class="project">
+        <div class="container">
+          <h2 class="section-title project__title">Последние проекты</h2>
+          <div class="project__slider slider-block swiper-container">
+            <div class="swiper-wrapper">
+              <div class="slider-block__item swiper-slide">
+                <img
+                  src="img/slider/project-img-1.jpg"
+                  alt="corp-taxi"
+                  class="slider-block__img"
+                />
+                <div class="slider-block__description">
+                  <h3 class="slider-block__title">
+                    Корпоративное такси
+                  </h3>
+                  <div class="slider-block__parametrs">
+                    <div
+                      class="slider-block__parametrs-item slider-block__parametrs-time"
+                    >
+                      <img
+                        src="img/slider/time-icon.svg"
+                        alt="time"
+                        class="slider-block__parametrs-img"
+                      />
+                      <div class="slider-block__parametrs-text">
+                        <p class="slider-block__parametrs-title">Сроки</p>
+                        <p class="slider-block__parametrs-value">
+                          3 рабочих дня
+                        </p>
+                      </div>
+                    </div>
+                    <!--  -->
+                    <div
+                      class="slider-block__parametrs-item slider-block__parametrs-cost"
+                    >
+                      <img
+                        src="img/slider/cost-icon.svg"
+                        alt="time"
+                        class="slider-block__parametrs-img"
+                      />
+                      <div class="slider-block__parametrs-text">
+                        <p class="slider-block__parametrs-title">Стоимость</p>
+                        <p class="slider-block__parametrs-value">
+                          всемирная тайна
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-block__feedback">
+                    <img
+                      src="img/slider/feedback-icon.svg"
+                      alt="feedback"
+                      class="slider-block__feedback-img"
+                    />
+                    <div class="slider-block-feedback-decription">
+                      <h4 class="slider-block__feedback-title">
+                        Отзыв клиента
+                      </h4>
+                      <p class="slider-block__feedback-text">
+                        Еще никто не написал отзывов. Но ничего, я только
+                        начинаю...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+
+              <div class="slider-block__item swiper-slide">
+                <img
+                  src="img/slider/project-img-2.jpg"
+                  alt="traffico"
+                  class="slider-block__img"
+                />
+                <div class="slider-block__description">
+                  <h3 class="slider-block__title">
+                    Traffico
+                  </h3>
+                  <div class="slider-block__parametrs">
+                    <div
+                      class="slider-block__parametrs-item slider-block__parametrs-time"
+                    >
+                      <img
+                        src="img/slider/time-icon.svg"
+                        alt="time"
+                        class="slider-block__parametrs-img"
+                      />
+                      <div class="slider-block__parametrs-text">
+                        <p class="slider-block__parametrs-title">Сроки</p>
+                        <p class="slider-block__parametrs-value">
+                          2 рабочих дня
+                        </p>
+                      </div>
+                    </div>
+                    <!--  -->
+                    <div
+                      class="slider-block__parametrs-item slider-block__parametrs-cost"
+                    >
+                      <img
+                        src="img/slider/cost-icon.svg"
+                        alt="time"
+                        class="slider-block__parametrs-img"
+                      />
+                      <div class="slider-block__parametrs-text">
+                        <p class="slider-block__parametrs-title">Стоимость</p>
+                        <p class="slider-block__parametrs-value">
+                          неразглашается
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-block__feedback">
+                    <img
+                      src="img/slider/feedback-icon.svg"
+                      alt="feedback"
+                      class="slider-block__feedback-img"
+                    />
+                    <div class="slider-block-feedback-decription">
+                      <h4 class="slider-block__feedback-title">
+                        Отзыв клиента
+                      </h4>
+                      <p class="slider-block__feedback-text">
+                        Отзывов пока нет. Тестовая работа.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--  -->
+              <div class="slider-block__item swiper-slide">
+                <img
+                  src="img/slider/project-img-3.jpg"
+                  alt="Велстрой"
+                  class="slider-block__img"
+                />
+                <div class="slider-block__description">
+                  <h3 class="slider-block__title">
+                    COVID-19
+                  </h3>
+                  <div class="slider-block__parametrs">
+                    <div
+                      class="slider-block__parametrs-item slider-block__parametrs-time"
+                    >
+                      <img
+                        src="img/slider/time-icon.svg"
+                        alt="time"
+                        class="slider-block__parametrs-img"
+                      />
+                      <div class="slider-block__parametrs-text">
+                        <p class="slider-block__parametrs-title">Сроки</p>
+                        <p class="slider-block__parametrs-value">
+                          Еще в работе
+                        </p>
+                      </div>
+                    </div>
+                    <!--  -->
+                    <div
+                      class="slider-block__parametrs-item slider-block__parametrs-cost"
+                    >
+                      <img
+                        src="img/slider/cost-icon.svg"
+                        alt="time"
+                        class="slider-block__parametrs-img"
+                      />
+                      <div class="slider-block__parametrs-text">
+                        <p class="slider-block__parametrs-title">Стоимость</p>
+                        <p class="slider-block__parametrs-value">
+                          Неизвестно
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="slider-block__feedback">
+                    <img
+                      src="img/slider/feedback-icon.svg"
+                      alt="feedback"
+                      class="slider-block__feedback-img"
+                    />
+                    <div class="slider-block-feedback-decription">
+                      <h4 class="slider-block__feedback-title">
+                        Отзыв клиента
+                      </h4>
+                      <p class="slider-block__feedback-text">
+                        Пока нет!
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider-pagination"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <h2 class="section-title footer__title">Свяжитесь со мной</h2>
+        <div class="footer__content">
+          <form
+            action="#"
+            class="footer__form form-content"
+            data-aos="flip-left"
+            data-aos-duration="1000"
+          >
+            <h3 class="form-content__title">
+              Можете просто оставить заявку, я свяжусь с вами сегодня
+            </h3>
+            <input
+              type="text"
+              class="form-content__input input-name"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="phone"
+              class="form-content__input input-phone"
+              placeholder="Ваш телефон"
+            />
+            <button class="form-content__btn btn">
+              Бесплатная консультация
+            </button>
+          </form>
+          <div class="footer__contacts contacts-content">
+            <div class="contacts-content-container">
+              <div class="contacts-content__phone contacts-phone">
+                <h4 class="contacts-content__title contacts-phone__title">
+                  Телефон
+                </h4>
+                <a
+                  href="tel:00000000"
+                  class="contacts-content__text contacts-phone__number"
+                  >+7 999 123-45-67</a
+                >
+              </div>
+              <div class="contacts-content__mail contacts-mail">
+                <h4 class="contacts-content__title contacts-mail__title">
+                  Почта
+                </h4>
+                <a
+                  href="mailto:7okay@mail.ru"
+                  class="contacts-content__text contacts-mail__link"
+                  >7okay@mail.ru</a
+                >
+              </div>
+            </div>
+            <div class="contacts-content__social contacts-social">
+              <h4 class="contacts-content__title contacts-social__title">
+                Соцсети
+              </h4>
+              <div class="contacts-social__links">
+                <a href="#" class="contacts-content__text contacts-social__link"
+                  >t.me/ivanov</a
+                >
+                <a href="#" class="contacts-content__text contacts-social__link"
+                  >vk.me/ivanov</a
+                >
+                <a href="#" class="contacts-content__text contacts-social__link"
+                  >fb.me/ivanov</a
+                >
+              </div>
+            </div>
+            <div class="contacts-content__social-links social-links">
+              <a href="#" class="social-links__link">
+                <svg
+                  class="social-links__link-img"
+                  width="18"
+                  height="18"
+                  fill="white"
+                >
+                  <use xlink:href="img/header/social.svg#github"></use>
+                </svg>
+              </a>
+              <a href="#" class="social-links__link">
+                <svg
+                  class="social-links__link-img"
+                  width="18"
+                  height="18"
+                  fill="white"
+                >
+                  <use xlink:href="img/header/social.svg#twitter"></use>
+                </svg>
+              </a>
+              <a href="#" class="social-links__link">
+                <svg
+                  class="social-links__link-img"
+                  width="18"
+                  height="18"
+                  fill="white"
+                >
+                  <use xlink:href="img/header/social.svg#instagram"></use>
+                </svg>
+              </a>
+              <a href="#" class="social-links__link">
+                <svg
+                  class="social-links__link-img"
+                  width="18"
+                  height="18"
+                  fill="white"
+                >
+                  <use xlink:href="img/header/social.svg#facebook"></use>
+                </svg>
+              </a>
+            </div>
+            <a href="#" class="contacts-content__policy"
+              >Политика конфиденциальности</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
